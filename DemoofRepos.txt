@@ -1,0 +1,38 @@
+Hi All  C:\>mkdir MyFolder
+
+C:\>cd MyFolder
+
+C:\MyFolder>git init
+Initialized empty Git repository in C:/MyFolder/.git/
+
+C:\MyFolder>git add DemoofRepos.txt
+
+C:\MyFolder>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   DemoofRepos.txt
+
+
+C:\MyFolder>git commit -m "this is our first comment"
+[master (root-commit) 4c4603b] this is our first comment
+ 1 file changed, 1 insertion(+)
+ create mode 100644 DemoofRepos.txt
+
+C:\MyFolder>git config --global user.email samatha_ramakrishna@yahoo.com
+
+C:\MyFolder>git remote add origin https://github.com/Samatha1521976/CapGeminiRepo3.git
+
+C:\MyFolder>git branch -M main
+
+C:\MyFolder>git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 236 bytes | 118.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Samatha1521976/CapGeminiRepo3.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
